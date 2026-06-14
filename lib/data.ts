@@ -45,19 +45,19 @@ export type Course = {
 }
 
 export const instructors: Record<string, Instructor> = {
-  'jane-mwangi': {
-    id: 'jane-mwangi',
-    name: 'Jane Mwangi',
+  'kelvin-mwangi': {
+    id: 'kelvin-mwangi',
+    name: 'Kelvin Mwangi',
     title: 'Senior BIM Architect, M.Arch',
     avatar: '/instructor-jane.png',
-    bio: 'Jane has 12+ years leading BIM implementation on commercial and residential projects across East Africa. She specializes in ArchiCAD workflows and construction documentation.',
+    bio: 'Kelvin has 12+ years leading BIM implementation on commercial and residential projects across East Africa. She specializes in ArchiCAD workflows and construction documentation.',
     students: 18420,
     courses: 6,
     rating: 4.9,
   },
   'david-otieno': {
-    id: 'david-otieno',
-    name: 'David Otieno',
+    id: '',
+    name: '',
     title: 'Architectural Visualizer',
     avatar: '/instructor-david.png',
     bio: 'David is an award-winning architectural visualizer who has rendered projects for studios in Nairobi, London, and Dubai using Twinmotion and ArchiCAD.',
@@ -65,9 +65,9 @@ export const instructors: Record<string, Instructor> = {
     courses: 3,
     rating: 4.8,
   },
-  'amina-hassan': {
-    id: 'amina-hassan',
-    name: 'Amina Hassan',
+  '': {
+    id: '',
+    name: '',
     title: 'Construction Technologist',
     avatar: '/instructor-amina.png',
     bio: 'Amina bridges design and construction, helping professionals produce buildable, code-compliant documentation directly from BIM models.',
@@ -234,7 +234,7 @@ export const courses: Course[] = [
     subtitle:
       'Create stunning, photorealistic architectural visualizations and walkthroughs with Twinmotion.',
     thumbnail: '/course-twinmotion.png',
-    instructor: 'david-otieno',
+    instructor: 'kelvin mwangi',
     level: 'Intermediate',
     rating: 4.8,
     reviews: 1540,
