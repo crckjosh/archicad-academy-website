@@ -50,14 +50,14 @@ export const instructors: Record<string, Instructor> = {
     name: 'Kelvin Mwangi',
     title: 'Senior BIM Architect, M.Arch',
     avatar: '/instructor-jane.png',
-    bio: 'Kelvin has 12+ years leading BIM implementation on commercial and residential projects across East Africa. She specializes in ArchiCAD workflows and construction documentation.',
+    bio: 'Jane has 12+ years leading BIM implementation on commercial and residential projects across East Africa. She specializes in ArchiCAD workflows and construction documentation.',
     students: 18420,
     courses: 6,
     rating: 4.9,
   },
-  'david-otieno': {
-    id: '',
-    name: '',
+  'kelvin-mwangi': {
+    id: 'kelvin-mwangi',
+    name: 'Kelvin Mwangi',
     title: 'Architectural Visualizer',
     avatar: '/instructor-david.png',
     bio: 'David is an award-winning architectural visualizer who has rendered projects for studios in Nairobi, London, and Dubai using Twinmotion and ArchiCAD.',
@@ -65,9 +65,9 @@ export const instructors: Record<string, Instructor> = {
     courses: 3,
     rating: 4.8,
   },
-  '': {
-    id: '',
-    name: '',
+  'kelvin-mwangi': {
+    id: 'kelvin-mwangi',
+    name: 'Kelvin Mwangi',
     title: 'Construction Technologist',
     avatar: '/instructor-amina.png',
     bio: 'Amina bridges design and construction, helping professionals produce buildable, code-compliant documentation directly from BIM models.',
@@ -189,7 +189,7 @@ export const courses: Course[] = [
     subtitle:
       'Master BIM coordination, clash detection, and data-rich models for real construction projects.',
     thumbnail: '/course-bim.png',
-    instructor: 'amina-hassan',
+    instructor: 'kelvin-mwangi',
     level: 'Advanced',
     rating: 4.9,
     reviews: 980,
@@ -234,7 +234,7 @@ export const courses: Course[] = [
     subtitle:
       'Create stunning, photorealistic architectural visualizations and walkthroughs with Twinmotion.',
     thumbnail: '/course-twinmotion.png',
-    instructor: 'kelvin mwangi',
+    instructor: 'kelvin-mwangi',
     level: 'Intermediate',
     rating: 4.8,
     reviews: 1540,
@@ -280,7 +280,7 @@ export const courses: Course[] = [
     subtitle:
       'Produce professional, code-compliant construction documents directly from your BIM model.',
     thumbnail: '/course-documentation.png',
-    instructor: 'amina-hassan',
+    instructor: 'kelvin-mwangi',
     level: 'Advanced',
     rating: 4.9,
     reviews: 760,
@@ -321,7 +321,7 @@ export const courses: Course[] = [
     subtitle:
       'Tackle large-scale commercial projects with advanced modeling, teamwork, and coordination strategies.',
     thumbnail: '/course-commercial.png',
-    instructor: 'jane-mwangi',
+    instructor: 'kelvin-mwangi',
     level: 'Advanced',
     rating: 4.7,
     reviews: 540,
