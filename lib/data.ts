@@ -43,18 +43,17 @@ export type Course = {
   requirements: string[]
   curriculum: Module[]
 }
-
 export const instructors: Record<string, Instructor> = {
-  'kelvin-mwangi': {
-    id: 'kelvin-mwangi',
-    name: 'Kelvin Mwangi',
-    title: 'Senior BIM Architect, M.Arch',
-    avatar: '/instructor-jane.png',
-    bio: 'Jane has 12+ years leading BIM implementation on commercial and residential projects across East Africa. She specializes in ArchiCAD workflows and construction documentation.',
-    students: 18420,
-    courses: 6,
-    rating: 4.9,
-  },
+'kelvin-mwangi': {
+id: 'kelvin-mwangi',
+name: 'Kelvin Mwangi',
+title: 'ArchiCAD Instructor & BIM Specialist',
+avatar: '/kelvin.png',
+bio: 'Kelvin Mwangi is a Construction Technologist and BIM Specialist passionate about teaching ArchiCAD, architectural design, construction documentation, rendering, and BIM workflows. Through ArchiCAD Academy, he helps students and professionals master industry-standard skills from beginner to advanced level.',
+students: 12400,
+courses: 24,
+rating: 4.9,
+},
   'kelvin-mwang': {
     id: 'kelvin-mwangi',
     name: 'Kelvin Mwangi',
@@ -65,7 +64,7 @@ export const instructors: Record<string, Instructor> = {
     courses: 3,
     rating: 4.8,
   },
-  'kelvin-mwangi': {
+  'kelvin-mwangi ': {
     id: 'kelvin-mwangi',
     name: 'Kelvin Mwangi',
     title: 'Construction Technologist',
