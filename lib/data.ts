@@ -55,7 +55,7 @@ export const instructors: Record<string, Instructor> = {
     courses: 6,
     rating: 4.9,
   },
-  'kelvin-mwangi': {
+  'kelvin-mwang': {
     id: 'kelvin-mwangi',
     name: 'Kelvin Mwangi',
     title: 'Architectural Visualizer',
